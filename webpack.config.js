@@ -5,12 +5,7 @@ module.exports = {
     // 指定入口文件
     entry: "./src/index.ts",
     mode: 'production',
-    devtool: "inline-source-map",
-
-    // 配置服务器
-    devServer: {
-        contentBase: "./dist",
-    },
+    // devtool: "inline-source-map",
 
     // 指定打包文件所在目录
     output: {
