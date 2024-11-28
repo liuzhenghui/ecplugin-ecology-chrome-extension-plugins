@@ -1,6 +1,6 @@
 import './popup-menus'
 
-console.log('bbbbbb')
+console.log('ddddd')
 
 
 // cdn: https://fastly.jsdelivr.net/gh/liuzhenghui/ecplugin-ecology-chrome-extension-plugins@master/release/bundle.js?t=
