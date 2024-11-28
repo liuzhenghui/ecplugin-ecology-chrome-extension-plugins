@@ -6,3 +6,6 @@ window.EcExtension.registerMenu({
         return Promise.resolve()
     }
 })
+
+
+console.log('kkkkkkkkkkkkkkkkkkkkk222')
