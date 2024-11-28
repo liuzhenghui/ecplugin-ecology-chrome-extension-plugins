@@ -4,12 +4,18 @@ const {CleanWebpackPlugin} = require("clean-webpack-plugin");
 module.exports = {
     // 指定入口文件
     entry: "./src/index.ts",
-    mode: 'production',
+    devtool: "inline-source-map",
+    mode: 'development',
+
+    // 配置服务器
+    devServer: {
+        port: 3000,
+    },
 
     // 指定打包文件所在目录
     output: {
-        path: path.resolve(__dirname, "release"),
-        filename: "bundle.js",
+        path: path.resolve(__dirname, "dist"),
+        filename: "index.js",
         environment: {
             arrowFunction: false,
         },
