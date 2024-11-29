@@ -1,6 +1,6 @@
 window.EcExtension.registerMenu({
     title: 'ts',
-    tips: 't22',
+    tips: 'fffff',
     onClick: function () {
         alert(666)
         return Promise.resolve()
