@@ -1,5 +1,5 @@
 window.EcExtension.registerMenu({
-    title: 'ts',
+    title: 'ddd',
     tips: 'fffff',
     onClick: function () {
         alert(666)
@@ -8,4 +8,3 @@ window.EcExtension.registerMenu({
 })
 
 
-console.log('kkkkkkkkkkkkkkkkkkkkk222')
